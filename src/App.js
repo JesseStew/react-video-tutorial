@@ -14,7 +14,7 @@ function App() {
           Hello World.
         </p>
         <Greet name="Diana" heroName="Wonder Woman" />
-        <Greet name="Bruce" heroName="Batman" />
+        <Welcome name="Bruce" heroName="Batman" />
         <Counter />
         <a
           className="App-link"
