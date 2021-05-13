@@ -4,6 +4,7 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </p>
         <Greet name="Diana" heroName="Wonder Woman" />
         <Welcome name="Bruce" heroName="Batman" />
+        <FunctionClick />
         <Counter />
         <a
           className="App-link"
