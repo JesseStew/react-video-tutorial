@@ -5,6 +5,7 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Welcome name="Bruce" heroName="Batman" />
         <FunctionClick />
         <Counter />
+        <ClassClick />
         <a
           className="App-link"
           href="https://reactjs.org"
