@@ -16,14 +16,14 @@ function NameList() {
       skill: 'Angular'
     },
     {
-      id: 1,
+      id: 3,
       name: 'Diana',
       age: 28,
       skill: 'Vue'
     }
   ]
 
-  const personList = persons.map(person => <Person person={person} />)
+  const personList = persons.map(person => <Person key={person.id} person={person} />)
 
   const names = ['Bruce', 'Clark', 'Diana']
   const nameList = names.map(name => <h2>{name}</h2>)
