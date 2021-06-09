@@ -9,13 +9,15 @@ import './App.css';
 // import EventBind from './components/EventBind'
 // import ParentComponent from './components/ParentComponent';
 // import UserGreet from './components/UserGreeting'
-import NameList from './components/NameList'
+// import NameList from './components/NameList'
+import Composition from './components/Composition'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NameList />
+        <Composition name="Diana" heroName="Wonder Woman" />
+        {/* <NameList /> */}
         {/* <UserGreet /> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
